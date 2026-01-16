@@ -46,7 +46,7 @@ export async function getPostalAddress(): Promise<User[]> {
                   lng: user.address.geo.lng,
                 }
               : { lat: "", lng: "" },
-          }
+           }
         : null,
     }));
   } catch (error) {
